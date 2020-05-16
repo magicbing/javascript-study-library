@@ -11,6 +11,10 @@ class Stack {
     this.stack.pop()
   }
 
+  size() {
+    return this.stack.length
+  }
+
   last() {
     const length = this.stack.length
     if (length < 1) {
